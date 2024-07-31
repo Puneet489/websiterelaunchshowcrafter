@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" type="image/x-icon" href="icon.jpeg" />
+    <title>Show Crafters</title>
+    </script>
+
+</head>
+
+<body>
+
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="Screenshot 2022-02-18 at 6.05.16 PM.jpeg" alt="Italian Trulli" width="500" height="100">
+                <span class="ml-3 text-xl"></span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+                <a href="about.html" class="mr-5 hover:text-gray-900">About</a>
+                <a href="services.html" class="mr-5 hover:text-gray-900">Services</a>
+                <a href="contact.html" class="mr-5 hover:text-gray-900">Contact Us</a>
+            </nav>
+            <!-- <a href="Signup.html" class=""><button
+                    class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Sign
+                    up
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button></a> -->
+        </div>
+    </header>
+
+
+    <hr>
+
+    <a href="Signup.html" id="login"></a>
+
+    <div class="login_form">
+        <h1>Login Form</h1>
+        <form id="logedout">
+            <p>
+                User Name
+            </p>
+
+            <Input type="text" name="user" placeholder="User Name" id="email">
+
+            <p>
+                Password
+            </p>
+
+            <input type="password" name="password" placeholder="Password" id="password">
+
+            <button onclick="login()" id="btn" class="btn btn-action">Login </button>
+        </form>
+
+
+    </div>
+
+
+    <hr>
+
+    <!-- <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
+        import { getDatabase, ref, set, child, update, remove, get } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js"
+        import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-auth.js";
+
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyATOhn9qvznmG8NjmT-Hcw9jHkTGcp0Dl8",
+            authDomain: "show-crafters-939ae.firebaseapp.com",
+            databaseURL: "https://show-crafters-939ae-default-rtdb.firebaseio.com",
+            projectId: "show-crafters-939ae",
+            storageBucket: "show-crafters-939ae.appspot.com",
+            messagingSenderId: "24872296878",
+            appId: "1:24872296878:web:58ad386466f7cdbc42683f",
+            measurementId: "G-8FGNQ8EQHZ"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const auth = getAuth();
+
+
+
+
+    </script> -->
+
+    <script src="login.js"></script>
+
+
+
+
+</body>
+
+</html>
